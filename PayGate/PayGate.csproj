@@ -7,7 +7,14 @@
     <Description>PayGate Integration Library</Description>
     <PackageTags>PayGate; PayGate Integration</PackageTags>
     <PackageReleaseNotes>First version of the PayGate PayWeb integration.
-Support for basic once off payments</PackageReleaseNotes>
+Support for basic once off payments.
+
+See https://github.com/AdriaanJvR/PayGate for sample code.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/AdriaanJvR/PayGate</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/AdriaanJvR/PayGate/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/AdriaanJvR/PayGate</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
