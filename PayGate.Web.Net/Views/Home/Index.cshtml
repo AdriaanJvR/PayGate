@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <div class="hidden-sm">&nbsp;</div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel panel-info">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Once-Off Payment</h3>
+                    </div>
+                    @using (Html.BeginForm("OnceOff", "Home", FormMethod.Post))
+                    {
+                        <div class="panel-body">
+                            <p><h5>Only R300 once off</h5></p>
+                            <p>This is a once off payment</p>
+                            <p>
+                                Confirmation Email:<br />
+                                @Html.TextBox("email")
+                            </p>
+                        </div>
+                        <div class="text-right">
+                            <input type="submit" class="btn btn-block btn-success" value="Buy Now" />
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

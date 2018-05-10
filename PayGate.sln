@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayGate.Web.Net", "PayGate.Web.Net\PayGate.Web.Net.csproj", "{EED61590-EFBD-4A6C-B73E-683D1BAB1B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayGate.Tests", "PayGate.Tests\PayGate.Tests.csproj", "{4AB3D023-2B33-4241-9847-8FE488DF46F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{F619EDC8-A512-4403-BA4E-9141D9273ED7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{026BB297-725E-4FB0-8AE2-4FD6D7BBD19C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{E5815BA1-9C1A-4249-9336-23E0F29AFD3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayGate", "PayGate\PayGate.csproj", "{457830A1-D4C2-48D3-B87B-324F4935428C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EED61590-EFBD-4A6C-B73E-683D1BAB1B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED61590-EFBD-4A6C-B73E-683D1BAB1B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED61590-EFBD-4A6C-B73E-683D1BAB1B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED61590-EFBD-4A6C-B73E-683D1BAB1B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB3D023-2B33-4241-9847-8FE488DF46F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB3D023-2B33-4241-9847-8FE488DF46F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB3D023-2B33-4241-9847-8FE488DF46F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB3D023-2B33-4241-9847-8FE488DF46F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{457830A1-D4C2-48D3-B87B-324F4935428C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457830A1-D4C2-48D3-B87B-324F4935428C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457830A1-D4C2-48D3-B87B-324F4935428C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457830A1-D4C2-48D3-B87B-324F4935428C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EED61590-EFBD-4A6C-B73E-683D1BAB1B54} = {F619EDC8-A512-4403-BA4E-9141D9273ED7}
+		{4AB3D023-2B33-4241-9847-8FE488DF46F0} = {026BB297-725E-4FB0-8AE2-4FD6D7BBD19C}
+		{457830A1-D4C2-48D3-B87B-324F4935428C} = {E5815BA1-9C1A-4249-9336-23E0F29AFD3E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5BCA1BC-3AAC-462E-B6D9-A55E5FBB3080}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+﻿@model PayGate.PayGateResponse
+
+@{
+    ViewBag.Title = "PayWeb";
+}
+
+<!-- TODO: This should be the confirmation page, after the transaction has been initialized. No auto submit! -->
+
+<script>
+    $(document).ready(function () {
+        $("form#payweb").submit();
+    });
+</script>
+
+<h2>PayWeb</h2>
+
+<div class="hidden">
+    <form id="payweb" action="https://secure.paygate.co.za/payweb3/process.trans" method="POST">
+        <input id="PAY_REQUEST_ID" name="PAY_REQUEST_ID" type="hidden" value="@Model.PAY_REQUEST_ID" />
+        <input id="CHECKSUM" name="CHECKSUM" type="hidden" value="@Model.CHECKSUM" />
+        <input id="REDIRECT" type="submit" />
+    </form>
+</div>
+
+<script>
+    document.forms["payweb"].submit();
+</script>

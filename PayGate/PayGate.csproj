@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Adriaan Jansen van Rensburg</Authors>
+    <Company>StylinSoft</Company>
+    <Description>PayGate Integration Library</Description>
+    <PackageTags>PayGate; PayGate Integration</PackageTags>
+    <PackageReleaseNotes>First version of the PayGate PayWeb integration.
+Support for basic once off payments</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
